@@ -48,8 +48,8 @@
     "name": "WithKSU-civi1s",
     "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
     "branch": "zijin-s-oss",
-    "device": "zijin_GKI",
-    "defconfig": "vendor/zijin_GKI.defconfig"
+    "device": "gki",
+    "defconfig": "gki_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
