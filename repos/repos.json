@@ -49,7 +49,7 @@
     "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
     "branch": "zijin-s-oss",
     "device": "zijin_GKI",
-    "defconfig": "zijin_GKI.config"
+    "defconfig": "vendor/zijin_GKI.config"
   },
   "withKernelSU": true,
   "toolchains": [
