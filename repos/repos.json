@@ -48,10 +48,10 @@
 {
   "kernelSource": {
     "name": "WithKSU-civi1s",
-    "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/zijin-s-oss",
-    "branch": "T-Backup",
-    "device": "cupida",
-    "defconfig": "cupida_defconfig"
+    "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+    "branch": "zijin-s-oss",
+    "device": "zijin_GKI",
+    "defconfig": "zijin_GKI.config"
   },
   "withKernelSU": true,
   "toolchains": [
