@@ -1,7 +1,7 @@
 [
 {
   "kernelSource": {
-    "name": "WithKernelSU-GTNeoSeries-Kernel",
+    "name": "UI4.0-WithKernelSU-GTNeoSeries-Kernel",
     "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
     "branch": "T-Backup",
     "device": "cupida",
@@ -45,11 +45,11 @@
 },
 {
   "kernelSource": {
-    "name": "WithKSU-civi1s",
-    "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
-    "branch": "zijin-s-oss",
-    "device": "gki",
-    "defconfig": "gki_defconfig"
+    "name": "UI3.0-WithKernelSU-GTNeoSeries-Kernel",
+    "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
+    "branch": "S",
+    "device": "cupida",
+    "defconfig": "cupida_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
@@ -84,14 +84,14 @@
     "use": true,
     "release": true,
     "repo": "https://github.com/chilan666/AnyKernel3",
-    "branch": "cupida"
+    "branch": "cupida_normal"
   }
 },
 {
   "kernelSource": {
-    "name": "WithKernelSU-GTNeoSeries-Kernel",
+    "name": "UI2.0-WithKernelSU-GTNeoSeries-Kernel",
     "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
-    "branch": "T-Backup",
+    "branch": "R",
     "device": "cupida",
     "defconfig": "cupida_defconfig"
   },
@@ -133,7 +133,7 @@
 },
 {
   "kernelSource": {
-    "name": "WithKSU-civi1s",
+    "name": "WithKSU-xiaomi_civi1s",
     "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
     "branch": "zijin-s-oss",
     "device": "gki",
