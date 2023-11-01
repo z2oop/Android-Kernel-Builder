@@ -49,7 +49,7 @@
     "repo": "https://github.com/chilan666/kernel_realme_RMX3031",
     "branch": "S",
     "device": "cupida",
-    "defconfig": "cupida_defconfig"
+    "defconfig": "mt6893_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
