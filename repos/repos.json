@@ -135,7 +135,7 @@
   "kernelSource": {
     "name": "KernelSU-Xiaomi_Civi1s-Miku",
     "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_modina",
-    "branch": "zijin",
+    "branch": "zijin-touchscreen",
     "device": "gki",
     "defconfig": "gki_defconfig"
   },
@@ -179,7 +179,7 @@
   "kernelSource": {
     "name": "KernelSU-Xiaomi_Civi1s-Miku-lahaina",
     "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_modina",
-    "branch": "zijin",
+    "branch": "zijin-touchscreen",
     "device": "lahaina",
     "defconfig": "vendor/lahaina-qgki_defconfig"
   },
