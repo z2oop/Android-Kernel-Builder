@@ -135,7 +135,7 @@
   "kernelSource": {
     "name": "KernelSU-Xiaomi_Civi1s-Miku",
     "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_modina",
-    "branch": "TDA",
+    "branch": "zijin",
     "device": "gki",
     "defconfig": "gki_defconfig"
   },
