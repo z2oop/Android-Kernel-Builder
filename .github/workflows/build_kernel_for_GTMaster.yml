@@ -82,5 +82,5 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         tag_name: v${{ env.BUILD_TIME }}
-        files: "kernel_workspace/AnyKernel3/*"
+        files: "$GITHUB_WORKSPACE/kernel_workspace/AnyKernel3/*"
         generate_release_notes: true
