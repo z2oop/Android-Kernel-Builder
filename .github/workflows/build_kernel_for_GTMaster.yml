@@ -78,9 +78,9 @@ jobs:
         name: AnyKernel3-bigshot-KernelSU-${{ env.BUILD_TIME }}
         path: kernel_workspace/AnyKernel3/*
 
-    - name: Create GitHub Release => (${{ env.builddate }})
+    - name: Create GitHub Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: v${{ env.builddate }}.${{ github.run_number }}
-        files: "Anykernel3_GTMaster_UI4.0_${{ env.builddate }}.zip"
+        tag_name: v${{ env.BUILD_TIME }}
+        files: "kernel_workspace/AnyKernel3/*"
         generate_release_notes: true
