@@ -133,11 +133,11 @@
 },
 {
   "kernelSource": {
-    "name": "KernelSU-Xiaomi_Civi1s-Miku",
-    "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_modina",
-    "branch": "zijin-touchscreen",
-    "device": "gki",
-    "defconfig": "gki_defconfig"
+    "name": "KernelSU-GTMaster",
+    "repo": "https://github.com/Blackmanx/kernel_realme_sm8250",
+    "branch": "bigshot",
+    "device": "sm8250",
+    "defconfig": "vendor/sm8250_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [
