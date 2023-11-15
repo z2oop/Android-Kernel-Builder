@@ -77,10 +77,3 @@ jobs:
       with:
         name: AnyKernel3-bigshot-KernelSU-${{ env.BUILD_TIME }}
         path: kernel_workspace/AnyKernel3/*
-
-    - name: Create GitHub Release
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: v${{ env.BUILD_TIME }}
-        files: "$GITHUB_WORKSPACE/kernel_workspace/AnyKernel3/*"
-        generate_release_notes: true
