@@ -1,4 +1,4 @@
-name: "Build Kernels For GT Neo Dimensity 1200 Series UI4.0"
+name: "GT Neo Dimensity 1200 Series UI 4.0"
 
 env:
   OUT_DIR: "${{ github.workspace }}/out"
