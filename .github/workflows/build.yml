@@ -1,4 +1,4 @@
-name: "GT Neo Dimensity 1200 Series UI 4.0"
+name: "GT Neo Dimensity 1200 Series A13"
 
 env:
   OUT_DIR: "${{ github.workspace }}/out"
