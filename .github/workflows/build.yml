@@ -9,7 +9,7 @@ on:
 jobs:
   Set-repos:
     name: "🐂 Parse repos.json"
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-20.04.6
     outputs:
       repos: ${{ steps.generate-matrix.outputs.repos }}
       builddate: ${{ steps.generate-builddate.outputs.builddate }}
@@ -29,7 +29,7 @@ jobs:
 
   Build-Kernel:
     name: "🐎 Build kernel"
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-20.04.6
     needs:
       - Set-repos
     strategy:
